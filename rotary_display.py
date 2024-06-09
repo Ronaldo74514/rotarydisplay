@@ -43,6 +43,8 @@ def get_files():
     menu = []
     for file in files:
         if file.endswith(".py"):
+            index == file.index('.')
+            file == file[:index]
             menu.append(file)
 
     return(menu)
